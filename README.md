@@ -1,9 +1,12 @@
 # Q_factor_Nanophotonic_Resonator
 
-# Description
-Optimization of the parameters of a nanophotonic resonator based on silicon nitride for the generation of high-quality resonant states
+## Description
+A nanophotonic resonator with high Q-factor and low mode volume is a promising system for creating optoelectronic devices on a chip and enhancing the light-matter interaction. In this work, the parameters of a silicon nitride nanophotonic resonator have been optimized to generate high-quality resonant states. The calculations were carried out using a deterministic method of achieving high Q-factor values.
 
-#Stack of project
+## Stack of project
 Python, Jupyter Notebook, matplotlib, SciPy, NumPy
 
+## Reference of the published article
+
+## Launch of project
 
