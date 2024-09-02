@@ -10,3 +10,15 @@ Python, Jupyter Notebook, SciPy, NumPy, matplotlib
 
 ## Launch of project
 
+Перейти в директорию с файлом **docker-compose.yml**, выполнить запуск и миграции:
+
+```
+docker compose up
+docker compose exec backend python manage.py migrate
+```
+
+
+
+
+_This README.md file's author is [Adel Garifullin](https://github.com/AIGarifullin)._
+
