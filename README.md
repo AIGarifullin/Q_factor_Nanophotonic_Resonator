@@ -10,15 +10,13 @@ Python, Jupyter Notebook, SciPy, NumPy, matplotlib
 
 ## Launch of project
 
-Перейти в директорию с файлом **docker-compose.yml**, выполнить запуск и миграции:
+You can select the definite folder and open the `phcr-cavity-Control.ipynb` Jupyter file and special `.py` file. After this, you can solve some problems like calculation of Q-factor and plot the dispersion relations, transmission spectra, _etc_. 
 
-```
-docker compose up
-docker compose exec backend python manage.py migrate
-```
-
-
-
+The work is based on the articles:
+1) [Quan, Q,, Deotare, P.B., Loncar, M., “Photonic crystal nanobeam cavity strongly coupled to the feeding waveguide,” Appl. Phys. Lett. 96(203102), 1-3 (2010)](http://dx.doi.org/10.1063/1.3429125)
+2) [Quan, Q., Loncar, M., “Deterministic design of wavelength scale, ultra-high Q photonic crystal nanobeam cavities,” Opt. Express. 19(19), 18529 (2011)](https://doi.org/10.1364/OE.19.018529)
+3) [Zhong, T., Rochman, J., Kindem, J.M., Miyazono, E., Faraon, A., “High quality factor nanophotonic resonators in bulk rare-earth doped crystals,” Opt. Express. 24(1), 536 (2016)](https://doi.org/10.1364/OE.24.000536) 
+4) [Krutov, I.A., Saygin, M.Yu., Dyakonov, I.V., Kulik, S.P., “Optimized low-loss integrated photonics silicon-nitride  Y-branch  splitter”, AIP Publishing, 2241(1), 020027 (2020)](https://doi.org/10.1063/5.0011452)
 
 _This README.md file's author is [Adel Garifullin](https://github.com/AIGarifullin)._
 
