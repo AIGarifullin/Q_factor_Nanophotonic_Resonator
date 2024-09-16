@@ -10,8 +10,39 @@ Python, Jupyter Notebook, SciPy, NumPy, matplotlib
 A. I. Garifullin and N. M. Arslanov "Optimization of SI3N4 nanophotonic resonator taking into account the substrate influence", Proc. SPIE 13168, Optical Technologies for Telecommunications 2023, 131681J (6 September 2024); https://doi.org/10.1117/12.3026578
 
 ## Launch of project
+Clone the repository:
+```
+git clone https://github.com/AIGarifullin/Q_factor_Nanophotonic_Resonator
+```
 
-You can select the definite folder and open the `phcr-cavity-Control.ipynb` Jupyter file and special `.py` file. After this, you can solve some problems like calculation of Q-factor and plot the dispersion relations, transmission spectra, _etc_. 
+Create and activate virtual environment:
+
+```
+python3 -m venv env
+```
+
+* If you have Linux/macOS
+
+    ```
+    source env/bin/activate
+    ```
+
+* Or Windows (Git Bash)
+
+    ```
+    source env/scripts/activate
+    ```
+
+```
+python3 -m pip install --upgrade pip
+```
+Install requirements from requirements.txt file:
+
+```
+pip install -r requirements.txt
+```
+
+After this, you can select the definite folder and open the `phcr-cavity-Control.ipynb` Jupyter file and special `.py` file. After this, you can solve some problems like calculation of Q-factor and plot the dispersion relations, transmission spectra, _etc_. 
 
 The work is based on the articles:
 1) [Quan, Q,, Deotare, P.B., Loncar, M., “Photonic crystal nanobeam cavity strongly coupled to the feeding waveguide,” Appl. Phys. Lett. 96(203102), 1-3 (2010)](http://dx.doi.org/10.1063/1.3429125)
