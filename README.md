@@ -7,6 +7,7 @@ A nanophotonic resonator with high Q-factor and low mode volume is a promising s
 Python, Jupyter Notebook, SciPy, NumPy, matplotlib
 
 ## Reference of the published article
+https://www.spiedigitallibrary.org/conference-proceedings-of-spie/13168/131681J/Optimization-of-SI3N4-nanophotonic-resonator-taking-into-account-the-substrate/10.1117/12.3026578.full
 
 ## Launch of project
 
