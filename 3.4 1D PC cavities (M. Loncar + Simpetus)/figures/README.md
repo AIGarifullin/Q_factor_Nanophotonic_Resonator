@@ -1,22 +1,22 @@
-# Проект nanophotonic resonator
+# Nanophotonic resonator project
 
-## Описание
-Проект *nanophotonic resonator* позволяет построить графики зависимости добротности от длины волны, ширины, длины полости (кэвити), периодов резонатора.
+## Description
+Project of *nanophotonic resonator* can plot figures of depencies of quality factor on wavelength, width, cavity length, period of resonator.
 
-## Установка
-Cоздать и активировать виртуальное окружение:
+## Installation
+Create and activate of virtual environment:
 
 ```
 python3 -m venv env
 ```
 
-* Если у вас Linux/macOS
+* If you have Linux/macOS
 
     ```
     source env/bin/activate
     ```
 
-* Если у вас Windows (в Git Bash)
+* Or Windows (Git Bash)
 
     ```
     source env/scripts/activate
@@ -26,10 +26,10 @@ python3 -m venv env
 python3 -m pip install --upgrade pip
 ```
 
-Установить зависимости из файла requirements.txt:
+Install requirements from the requirements.txt file:
 
 ```
 pip install -r requirements.txt
 ```
 
-_Текст данного файла составил [Адель Гарифуллин](https://github.com/AIGarifullin)._
+_This file's author is [Адель Гарифуллин](https://github.com/AIGarifullin)._
